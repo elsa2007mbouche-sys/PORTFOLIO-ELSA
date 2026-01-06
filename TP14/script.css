@@ -1,0 +1,27 @@
+body{
+background-color: rgb(255, 196, 226);
+
+}
+
+button{
+width: 250px;
+height: 200px;
+background-color: black;
+color: white;
+border: 2px solid white;
+border-radius: 26px;
+font-size: 2em;
+margin: 30px;
+transition: 0.2s;
+
+
+}
+
+button:hover {
+    background-color: rgb(250, 227, 248);
+    color: rgb(214, 45, 175);
+    border: 2px solid black;
+    transition: 150ms;
+}
+
+

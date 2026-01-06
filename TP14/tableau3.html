@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.html">
+  
+</head>
+<body>
+    <script>
+ function tableau3() 
+{  window.location.href = "tableau3.html";
+}
+
+</script>
+
+<bg color='pink'>
+     <h2> Tableau dynamique </h2>
+
+    Nom: <br> 
+    <input type="text" placeholder="Nom" name="Nom" id="Nom"> <br>
+    Age: <br> 
+    <input type="text" placeholder="Age" name="Age" id="Age"> <br>
+    Prenom: <br>
+    <input type="text" placeholder="Prenom" name="Prenom" id="Prenom"> <br>
+    
+    <br>
+
+    <table id="myTable">
+        <tr>
+            <td>Nom</td>
+            <td>Age</td>
+            <td>Prenom</td>
+        </tr>
+        
+        <tr>
+        
+        <td>Kennedy</td>
+        <td>30</td>
+        <td>John</td>
+
+        </tr>
+        <tr>
+
+        <td>Mary</td>
+        <td>25</td>
+        <td>Jane</td>
+        
+    </tr>
+
+    </table>
+
+    <button class="buttonAdd" onclick="addLigne()">Ajoutez une ligne</button>
+
+</body>
+</html>

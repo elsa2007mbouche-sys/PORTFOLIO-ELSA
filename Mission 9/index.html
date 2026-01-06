@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="script.css">
+    <script src="scriptqcm.js"> </script>
+    
+</head>
+<body>
+  <bg color="pink"></bg>
+    <div class= "z1">
+   <div class="TITRE"><center><H1>QUIZ QCM</H1></center><br> </div> 
+   
+    <form id="qcm">
+
+    
+    <h3>1. Quel est l'age minimum légal pour travailler en France ?</h3>
+    <div class="question-block" bonne-rep="16">
+        <label><input type="checkbox" name="q1" value="1">14</label><br>
+        <label><input type="checkbox" name="q1" value="2">15 </label><br>
+        <label><input type="checkbox" name="q1" value="3">16 </label>
+    </div>
+
+    <h3>2. Combien de semaines de congés payés un salarié a-t-il par an ?</h3>
+    <div class="question-block" bonne-rep="5">
+        <label><input type="checkbox" name="q2" value="4"> 4</label><br>
+        <label><input type="checkbox" name="q2" value="5"> 5</label><br>
+        <label><input type="checkbox" name="q2" value="6"> 6</label>
+    </div>
+
+    <h3>3. Quel est le nombre d'heures légales de travail par semaines en France ?</h3>
+    <div class="question-block" bonne-rep="35">
+        <label><input type="checkbox" name="q3" value="7"> 35</label><br>
+        <label><input type="checkbox" name="q3" value="8">37 </label><br>
+        <label><input type="checkbox" name="q3" value="9">40 </label>
+    </div>
+
+    <h3> 4. A partir de quel age on peut voter en France</h3>
+    <div class="question-block" bonne-rep="18">
+        <label><input type="checkbox" name="q4" value="10">16</label><br>
+        <label><input type="checkbox" name="q4" value="11">18</label><br>
+        <label><input type="checkbox" name="q4" value="12">21</label>
+    </div>
+
+    <h3>5. Combien de personnes composent une famille monoparentales ?</h3>
+    <div class="question" bonne-rep="2">
+        <label><input type="checkbox" name="q5" value="13"> 2</label><br>
+        <label><input type="checkbox" name="q5" value="14">3 </label><br>
+        <label><input type="checkbox" name="q5" value="15">4 </label>
+    </div>
+
+    <h3>6. Combien y a-t-il de mois dans un année scolaire ?</h3>
+    <div class="question-block" bonne-rep="10">
+        <label><input type="checkbox" name="q6" value="16"> 8 </label><br>
+        <label><input type="checkbox" name="q6" value="17">9 </label><br>
+        <label><input type="checkbox" name="q6" value="18">10 </label>
+    </div>
+
+    <h3>7. Quel est l'age légal pour passer le permis B ?</h3>
+    <div class="question-block" bonne-rep="17">
+        <label><input type="checkbox" name="q7" value="19"> 16</label><br>
+        <label><input type="checkbox" name="q7" value="20">17 </label><br>
+        <label><input type="checkbox" name="q7" value="21">18 </label>
+    
+    </div>
+
+     <h3>8. Combien de millions de personnes vivent en France </h3>
+    <div class="question-block" bonne-rep="68">
+        <label><input type="checkbox" name="q8" value="22"> 60</label><br>
+        <label><input type="checkbox" name="q8" value="23">68</label><br>
+        <label><input type="checkbox" name="q8" value="24">75 </label>
+    
+    </div>
+
+     <h3>9. Combien de jours dur un congé maternité minimum en France ?</h3>
+    <div class="question-block" bonne-rep="112">
+        <label><input type="checkbox" name="q9" value="25"> 112</label><br>
+        <label><input type="checkbox" name="q9" value="26">126 </label><br>
+        <label><input type="checkbox" name="q9" value="27">140 </label>
+    
+    </div>
+
+     <h3>10. Combien y a t-il de régions en France métropolitaine</h3>
+    <div class="question-block" bonne-rep="13">
+        <label><input type="checkbox" name="q10" value="28"> 13</label><br>
+        <label><input type="checkbox" name="q10" value="29">15 </label><br>
+        <label><input type="checkbox" name="q10" value="30">18 </label><br><br>
+    
+    </div>
+
+    
+  <div id="results"></div>
+            <br><br>
+
+
+
+            <div class="button-group">
+    <button type="button" id="score-qcm" onclick="calculerScore()">Score</button>
+    <button type="button" id="corrigé-qcm" onclick="afficherCorrige()">Corrigé</button>
+    <button type="button" id="effacer-qcm" onclick="effacerSelections()">Effacer</button>
+</div>
+
+    
+    
+</form>
+
+    </div> 
+
+
+  <footer>
+        <script src="scriptqcm.js"></script>
+    </footer>
+
+
+</body>
+</html>

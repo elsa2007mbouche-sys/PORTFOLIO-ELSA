@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(219, 111, 176);
+    font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+  
+    
+}
+
+
+.TITRE{
+
+    width: 94%;
+    height: 60px;
+    background-color: rgb(250, 227, 248);
+    padding: 30px;
+   
+
+}
+
+.z1
+{
+  margin: auto;
+  width:70% ;
+  height: 100%;
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+
+
+  button {
+    background-color: rgb(250, 227, 248);
+    color: rgb(214, 45, 175);
+    border: 2px solid black;
+    transition: 150ms;
+    border-radius: 15%;
+    width: 60px;
+    height: 30px;
+   
+}
+
